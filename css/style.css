@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.header-position{
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.button-content a{
+  text-decoration: none;
+  background: purple;
+  padding: 12px;
+  color: pink;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 10px;
+  transition: 1s;
+}
+
+.button-content a:hover{
+  background: pink;
+  color: purple;
+}
+
+.content-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.navbar-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar-content img{
+  height: 70px;
+  width: auto;
+}
+
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.section{
+  height: 100vh;
+}
+
+.bg-black{
+  background-color: #000000;
+  color: #fff;
+}
+
+.bg-image{
+  background-image: url('../assets/img/leia.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+}
