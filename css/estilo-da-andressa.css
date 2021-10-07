@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.section{
+  background: purple;
+}
+
+.container{
+  max-width: 80%;
+  margin: auto;
+}
+
+.post-section{
+  display: flex;
+}
+
+.post-content{
+  background: pink;
+  border-radius: 12px;
+  padding: 15px;
+  flex: 1;
+  margin: 35px 8px;
+}
+
+.post-content img{
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .post-section{
+    display: grid;
+  }
+}
