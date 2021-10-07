@@ -93,6 +93,13 @@ html{
   align-items: center;
 }
 
+.grogu-section{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 60px;
+}
+
 footer{
   background: #13138e;
   color: #fff;
