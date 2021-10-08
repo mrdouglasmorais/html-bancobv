@@ -6,6 +6,6 @@
 ### titulo 3
 
 inserindo imagens:
-[imagem do bode](/assets/img/bode.jpeg 'Imagem do bode');
+![imagem do bode](/assets/img/bode.jpeg 'Imagem do bode');
 
 `npm run algumacoisa`
